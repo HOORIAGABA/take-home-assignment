@@ -1,0 +1,3 @@
+# One phone number per line, with country code (spaces/dashes/+ are fine).
+# Only your own TEST number(s). Copy to allowlist.txt (git-ignored).
+# +92 300 0000000

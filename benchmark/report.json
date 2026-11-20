@@ -1,0 +1,998 @@
+{
+  "category": "dental clinic",
+  "city": "Lahore, Pakistan",
+  "city_resolved": "لاہور, تحصیل لاہور شہر, ضلع لاہور, لاہور ڈویژن, پنجاب, 54100, پاکستان",
+  "started_at": "2026-11-18T13:55:43+00:00",
+  "finished_at": "2026-11-18T17:58:26+00:00",
+  "duration_s": 336.4,
+  "duration_total_s": 1531.6,
+  "invocations": 2,
+  "maps_status": "complete",
+  "maps_requests_total": 504,
+  "web_pages_fetched": 187,
+  "settings": {
+    "category": "dental clinic",
+    "city": "Lahore, Pakistan",
+    "extra_queries": [
+      "dentist"
+    ],
+    "out_dir": "output",
+    "data_dir": "data",
+    "bbox": null,
+    "tile_km": 5.0,
+    "max_depth": 3,
+    "max_pages": 6,
+    "stale_pages": 1,
+    "split_min_in_tile": 10,
+    "coverage_sample": 12,
+    "maps_rate": 0.5,
+    "max_requests": 600,
+    "web_rate": 4.0,
+    "concurrency": 6,
+    "extra_pages": 2,
+    "js_fallback": true,
+    "smtp_probe": false,
+    "headless": true,
+    "skip_maps": false,
+    "skip_enrich": false,
+    "default_cc": "92",
+    "category_regex": null
+  },
+  "counts": {
+    "unique_listings_seen (by CID)": 1783,
+    "inside_city_boundary": 1672,
+    "matching_category": 1642,
+    "fuzzy_duplicates_merged": 44,
+    "final_businesses": 1598,
+    "with_phone": 1348,
+    "with_website": 437,
+    "website_is_social_profile": 92,
+    "enrich_done": 379,
+    "enrich_failed": 58,
+    "with_email": 207,
+    "total_emails": 268,
+    "with_instagram": 216,
+    "with_facebook": 195,
+    "with_linkedin": 35,
+    "with_whatsapp": 167,
+    "email_verdict_domain_accepts_mail": 258,
+    "email_verdict_undeliverable": 10
+  },
+  "tiles": {
+    "dental clinic": {
+      "done": 98,
+      "split": 14
+    },
+    "dentist": {
+      "done": 12
+    }
+  },
+  "coverage": {
+    "saturation_curve": [
+      {
+        "requests": "1-50",
+        "new_unique": 518,
+        "cumulative": 518
+      },
+      {
+        "requests": "51-100",
+        "new_unique": 464,
+        "cumulative": 982
+      },
+      {
+        "requests": "101-150",
+        "new_unique": 372,
+        "cumulative": 1354
+      },
+      {
+        "requests": "151-200",
+        "new_unique": 35,
+        "cumulative": 1389
+      },
+      {
+        "requests": "201-250",
+        "new_unique": 39,
+        "cumulative": 1428
+      },
+      {
+        "requests": "251-300",
+        "new_unique": 96,
+        "cumulative": 1524
+      },
+      {
+        "requests": "301-350",
+        "new_unique": 56,
+        "cumulative": 1580
+      },
+      {
+        "requests": "351-400",
+        "new_unique": 68,
+        "cumulative": 1648
+      },
+      {
+        "requests": "401-450",
+        "new_unique": 94,
+        "cumulative": 1742
+      },
+      {
+        "requests": "451-500",
+        "new_unique": 40,
+        "cumulative": 1782
+      },
+      {
+        "requests": "501-502",
+        "new_unique": 1,
+        "cumulative": 1783
+      }
+    ],
+    "cross_query": [
+      {
+        "query": "dentist",
+        "scope": "12 sampled tiles",
+        "main_found": 212,
+        "other_found": 131,
+        "overlap": 122,
+        "only_in_other": 9,
+        "chapman_population_estimate": 228,
+        "main_query_coverage_estimate": 0.932,
+        "union_found": 221
+      }
+    ],
+    "last_bucket_share_of_new": 0.001
+  },
+  "duplicates_merged": [
+    {
+      "kept": "16605463628543439579",
+      "name": "Dental Clinic. Tayyab Abbas",
+      "merged": [
+        "18021956813120176715"
+      ]
+    },
+    {
+      "kept": "7884273527795307196",
+      "name": "Dental Precision",
+      "merged": [
+        "11247601442423377350"
+      ]
+    },
+    {
+      "kept": "12366468990925987708",
+      "name": "Dental Specialist (Dr Naureen Sarwar. BDS, Mphil, MDS, ) lahore",
+      "merged": [
+        "12951730776277071788",
+        "9952848851908619490"
+      ]
+    },
+    {
+      "kept": "10255666767177944425",
+      "name": "Tooth Dentist",
+      "merged": [
+        "404107483574917602"
+      ]
+    },
+    {
+      "kept": "15000923834742551271",
+      "name": "Qasim Family Dental Clinic",
+      "merged": [
+        "12408918475897968112"
+      ]
+    },
+    {
+      "kept": "14495951220866887056",
+      "name": "Dental Cube",
+      "merged": [
+        "3847147815302482270"
+      ]
+    },
+    {
+      "kept": "11113771976785172354",
+      "name": "Dental Aesthetics",
+      "merged": [
+        "4172807220783625402"
+      ]
+    },
+    {
+      "kept": "17843280239539997855",
+      "name": "Dr. Zeeshan Tahir – DRM Dental",
+      "merged": [
+        "14594145910795404537"
+      ]
+    },
+    {
+      "kept": "5958666202032846563",
+      "name": "Dr. Haris Ghole",
+      "merged": [
+        "13581616371226138096"
+      ]
+    },
+    {
+      "kept": "1324619930445637998",
+      "name": "CURE N CARE DENTAL CENTRE",
+      "merged": [
+        "4313009268523923826"
+      ]
+    },
+    {
+      "kept": "17336549739241849634",
+      "name": "Nice dental care shoukat town gazi rode defnce Lahore Pakistan",
+      "merged": [
+        "14612209077352378241"
+      ]
+    },
+    {
+      "kept": "13601357742274161326",
+      "name": "Noor dental clinic",
+      "merged": [
+        "17574163007234817917"
+      ]
+    },
+    {
+      "kept": "9747393743088795189",
+      "name": "Sardar lateef hospital trust",
+      "merged": [
+        "3683351825267837128"
+      ]
+    },
+    {
+      "kept": "5197272311279252051",
+      "name": "Huswa Dental And Aesthetic Care",
+      "merged": [
+        "7559393344856529603"
+      ]
+    },
+    {
+      "kept": "16943209648577642914",
+      "name": "DENTAL HOUSE",
+      "merged": [
+        "10913069644827632839"
+      ]
+    },
+    {
+      "kept": "9586350998085861652",
+      "name": "M.S Sheikh Dental Cosmetics",
+      "merged": [
+        "7044958084091384261"
+      ]
+    },
+    {
+      "kept": "2554131212773741004",
+      "name": "Sajid Anwar Dental Clinic",
+      "merged": [
+        "6719593772516823538"
+      ]
+    },
+    {
+      "kept": "6532175826032701220",
+      "name": "Sunrise Dental Clinic",
+      "merged": [
+        "9560577663716957507"
+      ]
+    },
+    {
+      "kept": "16106334217954662525",
+      "name": "Rahat Dental Clinic",
+      "merged": [
+        "6011632286320972325"
+      ]
+    },
+    {
+      "kept": "11166674327414048303",
+      "name": "Defence Dental Clinic",
+      "merged": [
+        "16143329431959340532"
+      ]
+    },
+    {
+      "kept": "8141025990161719579",
+      "name": "Dental Concern",
+      "merged": [
+        "8331206729307557623"
+      ]
+    },
+    {
+      "kept": "12051520814796818761",
+      "name": "Dental Health Care",
+      "merged": [
+        "12581458491988262036"
+      ]
+    },
+    {
+      "kept": "2334328221555466563",
+      "name": "Reliv",
+      "merged": [
+        "4668385197975574963"
+      ]
+    },
+    {
+      "kept": "3560767552102228454",
+      "name": "Premium Smile Dental Care",
+      "merged": [
+        "4842337340401495766"
+      ]
+    },
+    {
+      "kept": "522932344591856863",
+      "name": "Bushra Dental Clinic",
+      "merged": [
+        "16575545480427875766"
+      ]
+    },
+    {
+      "kept": "13325713134867766749",
+      "name": "Innovodent dental clinic Dr Talal & associates",
+      "merged": [
+        "3616070664882624732"
+      ]
+    },
+    {
+      "kept": "13317275165538650182",
+      "name": "Chaudhary Dental Surgery l Dr.Shahid Manzoor",
+      "merged": [
+        "1612847414254271443"
+      ]
+    },
+    {
+      "kept": "9929176855363575951",
+      "name": "Dental Consultants",
+      "merged": [
+        "685532947570483839"
+      ]
+    },
+    {
+      "kept": "16280118602684238894",
+      "name": "Dental Sense Clinic",
+      "merged": [
+        "16775496078160669271"
+      ]
+    },
+    {
+      "kept": "7493418485550351127",
+      "name": "DENTAL CLINIC",
+      "merged": [
+        "14147322006912378466"
+      ]
+    },
+    {
+      "kept": "7672630822607986566",
+      "name": "Dental Avenue & Facial Aesthetics",
+      "merged": [
+        "3774927800375248976"
+      ]
+    },
+    {
+      "kept": "15514526080040339882",
+      "name": "Confidentals",
+      "merged": [
+        "4751909378079986242"
+      ]
+    },
+    {
+      "kept": "11353547474335129774",
+      "name": "Dr Momina Dental Consultant - Dentist In Lahore",
+      "merged": [
+        "8441357230042761886",
+        "14347367841296526227"
+      ]
+    },
+    {
+      "kept": "6028679189610485328",
+      "name": "DENTAL SETTINGS & SERVICES, LAHORE",
+      "merged": [
+        "1537502142583503600"
+      ]
+    },
+    {
+      "kept": "5023791923137201110",
+      "name": "Tayyab Dental Complex",
+      "merged": [
+        "14972355185341446677"
+      ]
+    },
+    {
+      "kept": "13159558130017659025",
+      "name": "Abid Dental Surgery",
+      "merged": [
+        "10915973477141829782"
+      ]
+    },
+    {
+      "kept": "13039928125896857240",
+      "name": "Ideal Dental Clinic",
+      "merged": [
+        "17553505556304553064"
+      ]
+    },
+    {
+      "kept": "14849946589209543105",
+      "name": "Advance Dental Concepts",
+      "merged": [
+        "18015923463901589813"
+      ]
+    },
+    {
+      "kept": "13577146032652892426",
+      "name": "The Dental Suite",
+      "merged": [
+        "9917540087030794329"
+      ]
+    },
+    {
+      "kept": "11401401343878695384",
+      "name": "3D Aligner Smile Club",
+      "merged": [
+        "11430597193910638815"
+      ]
+    },
+    {
+      "kept": "6424668897120316390",
+      "name": "Eterna Dental and Aesthetics",
+      "merged": [
+        "17020757618441769062"
+      ]
+    },
+    {
+      "kept": "11890283510008912761",
+      "name": "Dental Solutions",
+      "merged": [
+        "9012210007064736973"
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "stage": "website",
+      "key": "Royal Smile Dental Clinic <https://royalsmileclinics.com/>",
+      "error": "PermissionError: disallowed by robots.txt"
+    },
+    {
+      "stage": "website",
+      "key": "Al-Fatima Dental Clinic <http://alfatimadentalclinic.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Family Dental Clinic <https://familydentalsclinic.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Sobhi Dental Clinic 100%sterlization <https://sobhidentalsurgery.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Rehmat Dental Complex <https://rehmatdentalcomplex.com/>",
+      "error": "PermissionError: disallowed by robots.txt"
+    },
+    {
+      "stage": "website",
+      "key": "The Dental Co Dental Clinic in DHA Lahore <https://meerhealthcaregroup.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Jaws and Ivory Dental Clinic <https://jawsandivory.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Mahmood Dental Care <https://mahmooddentalcare.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Imran Dental Surgery <http://www.dentalguild.com/>",
+      "error": "PermissionError: disallowed by robots.txt"
+    },
+    {
+      "stage": "website",
+      "key": "Wasif Medical Centre and Dental care <http://www.azharwaheed.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Dental Bay <http://www.thedentalbay.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Dental Dock |Dr Sehrish | Dental Surgeon | Best Dentist in Walton Lahore | 15 Years Experience | Certified Doctor In Lahore <https://nazirhospital.com/dental-surgeon/>",
+      "error": "PermissionError: HTTP 403"
+    },
+    {
+      "stage": "website",
+      "key": "Jasmine Dental Clinic <https://jasminedentalclinics.com/>",
+      "error": "RetryableError: HTTP 503"
+    },
+    {
+      "stage": "website",
+      "key": "Sana Samin Dental Care <https://www.sanasamindentalcare.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Defence Dental Clinic <https://defencedentalclinic.pk/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Defence Dental Surgery <http://www.dds.com.pk/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "bright smile dental clinic <https://www.brightsmiledentalclinic.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Dental Health Care <http://www.dentalhealthcare6l.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Sana Dental Aesthetics <https://www.sanadentalaesthetics.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Dental Services <https://iadsr.edu.pk/dentalservices/>",
+      "error": "PermissionError: HTTP 404"
+    },
+    {
+      "stage": "website",
+      "key": "ayazy dental clinic <https://www.ayazydentalclinic.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Teeth & Co Dental Clinic <https://teethandco.pk/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Ali Shams Dental Clinic <https://reliable-biscotti-f8d589.netlify.app/>",
+      "error": "PermissionError: HTTP 404"
+    },
+    {
+      "stage": "website",
+      "key": "Smile Matters <https://smilesmatters.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Xthetica Facial & Dental Aesthetics <http://www.drrubbabzahra.com/>",
+      "error": "PermissionError: disallowed by robots.txt"
+    },
+    {
+      "stage": "website",
+      "key": "Premium Smile Dental Care <https://cal.com/premium-smile-dental-care/30>",
+      "error": "PermissionError: HTTP 403"
+    },
+    {
+      "stage": "website",
+      "key": "Family Smiles Dental Clinic <https://cal.com/family-smiles-dental-clinic-ook9uh/30mins>",
+      "error": "PermissionError: HTTP 403"
+    },
+    {
+      "stage": "website",
+      "key": "Fatima Memorial Dental Hospital <https://www.fatimamemorial.org.pk/>",
+      "error": "RetryableError: RemoteProtocolError"
+    },
+    {
+      "stage": "website",
+      "key": "Shahzad Dental Clinic| DR SHAHZAD <http://shahzaddentalclinic.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Dental Smile <http://www.orthodontist.com.pk/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Dental Sense Clinic <http://dentalsense.pk/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "The Dental Harmony <http://www.thedentalharmony.com/>",
+      "error": "RetryableError: HTTP 500"
+    },
+    {
+      "stage": "website",
+      "key": "Oracare Dental Clinic <http://www.oracaredental.net/>",
+      "error": "PermissionError: HTTP 404"
+    },
+    {
+      "stage": "website",
+      "key": "Imperial Dental Studio <https://imperialdentalstudio.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "D da dentist <https://ddadentist.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "City Dental hospital <http://www.citydentalhospital.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Punjab Dental Clinic Shahdara <https://punjabdentalclinics.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "High Class Dental & Medical Division <https://www.highclass.com.pk/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Asad Dental Clinic (Shadara Lahore) <http://www.faceboo.com/Dr_Asadullah_Sipra>",
+      "error": "PermissionError: disallowed by robots.txt"
+    },
+    {
+      "stage": "website",
+      "key": "Tazeem Dental Care <http://tazeemdental.info/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "confiDental <http://confidental.com.pk/>",
+      "error": "PermissionError: HTTP 403"
+    },
+    {
+      "stage": "website",
+      "key": "Align & Glow Dental Aesthetic Clinic <https://alignandglow.pk/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Dr. Sumbal Sahar Rana <https://www.drsumbalsahar.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Aaqil's Dental Group & Institute <http://www.aaqildental.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "GHC Medical Complex Global Aesthetics Cosmo Derma Institute, Dental & Eye Care Clinic & Institue Health Sciences, Mind Care <http://www.gwopak.org/%20ghccomplex.com.gias.info,%20www.gracerehab.net>",
+      "error": "PermissionError: HTTP 403"
+    },
+    {
+      "stage": "website",
+      "key": "Dr. Areeba Imran <https://drareeba.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Candela Aesthetic and Dental <http://www.candelamedicalcomplex.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "The Dentix & Aesthetic Clinic <https://thedentix.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Daood Dental Surgery <http://daooddentalsurgery.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Dental Essence <http://www.dentalessence.pk/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Averroysta Dental Healthcare <https://averroysta.com/>",
+      "error": "PermissionError: HTTP 401"
+    },
+    {
+      "stage": "website",
+      "key": "Eterna Dental and Aesthetics <https://eternadentalaesthetics.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Dental & Aesthetic Lounge by XA <https://www.xalounge.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Royal Smile Dental Clinic <https://royalsmileclinics.com/>",
+      "error": "PermissionError: disallowed by robots.txt"
+    },
+    {
+      "stage": "website",
+      "key": "Rehmat Dental Complex <https://rehmatdentalcomplex.com/>",
+      "error": "PermissionError: disallowed by robots.txt"
+    },
+    {
+      "stage": "website",
+      "key": "Family Dental Clinic <https://familydentalsclinic.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Sobhi Dental Clinic 100%sterlization <https://sobhidentalsurgery.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Al-Fatima Dental Clinic <http://alfatimadentalclinic.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Imran Dental Surgery <http://www.dentalguild.com/>",
+      "error": "PermissionError: disallowed by robots.txt"
+    },
+    {
+      "stage": "website",
+      "key": "The Dental Co Dental Clinic in DHA Lahore <https://meerhealthcaregroup.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Jaws and Ivory Dental Clinic <https://jawsandivory.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Dental Bay <http://www.thedentalbay.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Mahmood Dental Care <https://mahmooddentalcare.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Wasif Medical Centre and Dental care <http://www.azharwaheed.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Dental Dock |Dr Sehrish | Dental Surgeon | Best Dentist in Walton Lahore | 15 Years Experience | Certified Doctor In Lahore <https://nazirhospital.com/dental-surgeon/>",
+      "error": "PermissionError: HTTP 403"
+    },
+    {
+      "stage": "website",
+      "key": "Defence Dental Clinic <https://defencedentalclinic.pk/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Jasmine Dental Clinic <https://jasminedentalclinics.com/>",
+      "error": "RetryableError: HTTP 503"
+    },
+    {
+      "stage": "website",
+      "key": "Sana Samin Dental Care <https://www.sanasamindentalcare.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Defence Dental Surgery <http://www.dds.com.pk/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Dental Health Care <http://www.dentalhealthcare6l.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Ali Shams Dental Clinic <https://reliable-biscotti-f8d589.netlify.app/>",
+      "error": "PermissionError: HTTP 404"
+    },
+    {
+      "stage": "website",
+      "key": "Sana Dental Aesthetics <https://www.sanadentalaesthetics.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Dental Services <https://iadsr.edu.pk/dentalservices/>",
+      "error": "PermissionError: HTTP 404"
+    },
+    {
+      "stage": "website",
+      "key": "Teeth & Co Dental Clinic <https://teethandco.pk/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Xthetica Facial & Dental Aesthetics <http://www.drrubbabzahra.com/>",
+      "error": "PermissionError: disallowed by robots.txt"
+    },
+    {
+      "stage": "website",
+      "key": "bright smile dental clinic <https://www.brightsmiledentalclinic.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Premium Smile Dental Care <https://cal.com/premium-smile-dental-care/30>",
+      "error": "PermissionError: HTTP 403"
+    },
+    {
+      "stage": "website",
+      "key": "Family Smiles Dental Clinic <https://cal.com/family-smiles-dental-clinic-ook9uh/30mins>",
+      "error": "PermissionError: HTTP 403"
+    },
+    {
+      "stage": "website",
+      "key": "ayazy dental clinic <https://www.ayazydentalclinic.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Smile Matters <https://smilesmatters.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Shahzad Dental Clinic| DR SHAHZAD <http://shahzaddentalclinic.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Dental Smile <http://www.orthodontist.com.pk/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Oracare Dental Clinic <http://www.oracaredental.net/>",
+      "error": "PermissionError: HTTP 404"
+    },
+    {
+      "stage": "website",
+      "key": "Fatima Memorial Dental Hospital <https://www.fatimamemorial.org.pk/>",
+      "error": "RetryableError: RemoteProtocolError"
+    },
+    {
+      "stage": "website",
+      "key": "Imperial Dental Studio <https://imperialdentalstudio.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Punjab Dental Clinic Shahdara <https://punjabdentalclinics.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "High Class Dental & Medical Division <https://www.highclass.com.pk/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "The Dental Harmony <http://www.thedentalharmony.com/>",
+      "error": "RetryableError: HTTP 500"
+    },
+    {
+      "stage": "website",
+      "key": "Asad Dental Clinic (Shadara Lahore) <http://www.faceboo.com/Dr_Asadullah_Sipra>",
+      "error": "PermissionError: disallowed by robots.txt"
+    },
+    {
+      "stage": "website",
+      "key": "D da dentist <https://ddadentist.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "City Dental hospital <http://www.citydentalhospital.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Dental Sense Clinic <http://dentalsense.pk/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Tazeem Dental Care <http://tazeemdental.info/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Dr. Sumbal Sahar Rana <https://www.drsumbalsahar.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "GHC Medical Complex Global Aesthetics Cosmo Derma Institute, Dental & Eye Care Clinic & Institue Health Sciences, Mind Care <http://www.gwopak.org/%20ghccomplex.com.gias.info,%20www.gracerehab.net>",
+      "error": "PermissionError: HTTP 403"
+    },
+    {
+      "stage": "website",
+      "key": "Dr. Areeba Imran <https://drareeba.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Aaqil's Dental Group & Institute <http://www.aaqildental.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Averroysta Dental Healthcare <https://averroysta.com/>",
+      "error": "PermissionError: HTTP 401"
+    },
+    {
+      "stage": "website",
+      "key": "Candela Aesthetic and Dental <http://www.candelamedicalcomplex.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Daood Dental Surgery <http://daooddentalsurgery.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Dr.Ashtiaq (Midcity Dental care) <http://night-might.com/>",
+      "error": "PermissionError: disallowed by robots.txt"
+    },
+    {
+      "stage": "website",
+      "key": "The Dentix & Aesthetic Clinic <https://thedentix.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Dental & Aesthetic Lounge by XA <https://www.xalounge.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Eterna Dental and Aesthetics <https://eternadentalaesthetics.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Mashhood Dental Care <https://mashhooddentalcare.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "De Dental Pro <http://www.dedentalpro.com.pk/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Prime Care Dental, Braces, Implants, Cosmetic and Surgical Dentistry <http://primecaredental.pk/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Daood Dental Surgery <http://daooddentalsurgery.com/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Align & Glow Dental Aesthetic Clinic <https://alignandglow.pk/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Dental Essence <http://www.dentalessence.pk/>",
+      "error": "RetryableError: ConnectError"
+    },
+    {
+      "stage": "website",
+      "key": "Pakistan Academy of Implant dentistry <https://mqiclinics.com/>",
+      "error": "RetryableError: ConnectError"
+    }
+  ]
+}

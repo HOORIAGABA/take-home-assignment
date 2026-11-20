@@ -1,0 +1,15 @@
+# systemd unit: copy to ~/.config/systemd/user/wabot.service, then
+#   systemctl --user enable --now wabot && loginctl enable-linger $USER
+[Unit]
+Description=WhatsApp assistant (take-home Part 2B)
+After=network-online.target
+
+[Service]
+WorkingDirectory=%h/take-home-assignment
+ExecStart=%h/take-home-assignment/.venv/bin/python -m wabot
+Restart=on-failure
+RestartPreventExitStatus=2
+RestartSec=10
+
+[Install]
+WantedBy=default.target

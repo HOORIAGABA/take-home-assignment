@@ -1,0 +1,25 @@
+# secrets & sessions - never commit
+.env
+data/
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.bak
+qr.png
+allowlist.txt
+
+# outputs (benchmark/ IS committed)
+output/
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# not part of the submission
+Take_Home_Challenge_Automation_Engineer.pdf
+
+# private study notes
+INTERVIEW_GUIDE.md
