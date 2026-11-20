@@ -9,6 +9,17 @@
 
 Python 3.11+. No official Google/WhatsApp APIs, no paid scraping services, no CAPTCHA solving.
 
+## Submission contents
+
+| Item | Where |
+|---|---|
+| Part 2 demo video (up to 5 min, includes a restart) | [Recording.mp4](Recording.mp4) (screen recording) and [RecordingofWhatsapp.mp4](RecordingofWhatsapp.mp4) (WhatsApp side) |
+| Part 1 benchmark output (dental clinic, Lahore) | [benchmark/](benchmark/): `businesses.csv`, `businesses.json`, `report.md`, `report.json` |
+| Write-up | [WRITEUP.md](WRITEUP.md) |
+| Settings template | [.env.example](.env.example) |
+
+On GitHub, click a video file, then **View raw** (or the download button) to play it.
+
 ## Setup (5 commands)
 
 Windows (PowerShell or cmd):
